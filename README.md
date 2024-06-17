@@ -76,16 +76,12 @@ Cinebench 2024 (macOS):
 **Bootloader:**
 - [OpenCore 1.0.0](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.0)
 
-**USB map:**
-- USBToolBox [tool](https://github.com/USBToolBox/tool) and [kext](https://github.com/USBToolBox/kext)
-
-**SSDTs:**
+**SSDTs (all generated with [SSDTTime](https://github.com/corpnewt/SSDTTime)):**
 - SSDT-EC
 - SSDT-HPET
 - SSDT-PLUG-ALT
 - SSDT-RTCAWAC
 - SSDT-USBX
-(all generated with [SSDTTime](https://github.com/corpnewt/SSDTTime))
 
 **Kexts:**
 - [AMFIPass](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.0-RELEASE.zip)
