@@ -34,7 +34,7 @@
 
 ## Observations
 
-iMacPro1,1 SMBIOS yields far better performance than MacPro7,1. CPUFriend.kext was not used, as iMacPro1,1 handles power management on its own with no issues. Benchmark scores indicate that macOS performance is approximately 2% slower than Windows. All SSDTs were compiled with [SSDTTime](https://github.com/corpnewt/SSDTTime).
+iMacPro1,1 SMBIOS yields far better performance than MacPro7,1. CPUFriend.kext was not used, as iMacPro1,1 handles power management on its own with no issues. Benchmark scores indicate that macOS performance is approximately 2% slower than Windows.
 
 **Benchmark scores:**
 
