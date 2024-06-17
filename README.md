@@ -71,4 +71,33 @@ Cinebench 2024 (macOS):
 - Apps that require SIP enabled (Adobe CC, Dropbox, etc.)
 - OTA delta updates (full update packages work fine)
 
+## Tools used
+
+**Bootloader:**
+- [OpenCore 1.0.0](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.0)
+
+**USB map:**
+- USBToolBox [tool](https://github.com/USBToolBox/tool) and [kext](https://github.com/USBToolBox/kext)
+
+**SSDTs:**
+- SSDT-EC
+- SSDT-HPET
+- SSDT-PLUG-ALT
+- SSDT-RTCAWAC
+- SSDT-USBX
+(all generated with [SSDTTime](https://github.com/corpnewt/SSDTTime))
+
+**Kexts:**
+- [AMFIPass](https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.0-RELEASE.zip)
+- [AppleALC](https://github.com/acidanthera/AppleALC)
+- [CpuTopologyRebuild](https://github.com/b00t0x/CpuTopologyRebuild)
+- [IO80211FamlyLegacy and IOSkywalkFamily](https://github.com/dortania/OpenCore-Legacy-Patcher/tree/main/payloads/Kexts/Wifi)
+- [Lilu](https://github.com/acidanthera/Lilu)
+- [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
+- [RestrictEvents](https://github.com/acidanthera/RestrictEvents)
+- [SMCProcessor, SMCSuperIO, and VirtualSMC](https://github.com/acidanthera/VirtualSMC)
+- [SMCRadeonSensors](https://github.com/ChefKissInc/SMCRadeonSensors)
+- [USBToolBox](https://github.com/USBToolBox/kext) and [UTBMap](https://github.com/USBToolBox/tool)
+- [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
+
 Feel free to message me on Discord @gdhp if you have any questions.
