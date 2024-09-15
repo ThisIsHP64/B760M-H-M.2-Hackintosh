@@ -11,7 +11,7 @@
 - Scythe Fuma 3
 
 **Motherboard:**
-- ASRock B760M-H/M.2
+- ASRock B760M-H/M.2 (BIOS 5.08)
 
 **RAM:**
 - 2x Crucial 16GB DDR5-4800 (CT16G48C40U5)
@@ -31,6 +31,38 @@
 
 **Wireless card:**
 - fenvi FV-T919 PCIe Network Adapter
+
+## BIOS Settings
+
+**Advanced > CPU Configuration:**
+- Intel Hyper Threading Technology: Enabled
+- Active Processor P-Cores: All
+- Active Processor E-Cores: All
+- CFG Lock: Disabled
+- Intel Virtualization Technology: Enabled
+
+**Advanced > Chipset Configuration:**
+- Above 4G Decoding: Enabled
+- C.A.M. (Clever Access Memory): Enabled
+- VT-d: Enabled
+
+**Advanced > Storage Configuration:**
+- SATA Mode Selection: AHCI
+
+**Advanced > USB Configuration:**
+- XHCI Hand-off: Enabled
+
+**Security:**
+- Intel(R) Platform Trust Technology: Disabled
+
+**Security > Secure Boot:**
+- Secure Boot: Disabled
+
+**Boot:**
+- Fast Boot: Disabled
+
+**Boot > CSM(Compatibility Support Module):**
+- CSM: Disabled
 
 ## Observations
 
