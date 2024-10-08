@@ -1356,6 +1356,8 @@
 	</dict>
 	<key>UEFI</key>
 	<dict>
+		<key>Unload</key>
+		<array/>
 		<key>APFS</key>
 		<dict>
 			<key>EnableJumpstart</key>
