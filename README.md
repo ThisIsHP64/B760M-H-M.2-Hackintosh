@@ -20,7 +20,7 @@ Latest macOS version verified working: 15.1.1
 
 **Storage:**
 - 1TB Samsung 870 Evo (macOS Sequoia)
-- 1TB Samsung 870 Evo (Windows 11 Pro)
+- 500GB Samsung 870 Evo (Windows 11 Pro)
 
 **GPU:**
 - PowerColor Fighter Radeon RX 6600
