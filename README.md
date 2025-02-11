@@ -68,13 +68,13 @@ Latest macOS version verified working: 15.3.1
 
 ## Observations
 
-iMacPro1,1 SMBIOS yields far better performance than MacPro7,1. CPUFriend.kext was not used, as iMacPro1,1 handles power management on its own with no issues. Benchmark scores indicate that macOS performance is approximately 3-4% slower than Windows. Wi-Fi does not work out of the box, requires use of [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) to enable.
+iMacPro1,1 SMBIOS yields far better performance than MacPro7,1. CPUFriend.kext was not used, as iMacPro1,1 handles power management on its own with no issues. Benchmark scores indicate that macOS performance is approximately 2-3% slower than Windows. Wi-Fi does not work out of the box, requires use of [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) to enable.
 
 **Benchmark scores:**
 
 Geekbench 6.4.0:
 - Windows: single-core 2606, multi-core 13382
-- macOS: single-core 2532, multi-core 12817
+- macOS: single-core 2548, multi-core 12951
 
 **What works:**
 - Wi-Fi (with OCLP root patches)
