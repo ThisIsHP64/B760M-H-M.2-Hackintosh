@@ -1,7 +1,7 @@
 # macOS Sequoia Hackintosh based on the [ASRock B760M-H/M.2](https://www.asrock.com/MB/Intel/B760M-HM.2/index.asp) motherboard, powered by [OpenCore 1.0.3](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.3)
 ![Screenshot 2024-09-15 at 12 44 22 PM](https://github.com/user-attachments/assets/3f0038f0-7158-4dcd-8c8c-89109ea821f9)
 
-Latest macOS version verified working: 15.3
+Latest macOS version verified working: 15.3.1
 ## Do NOT use my EFI folder for your Hackintosh. Construct your own using the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide/) and [chriswayg's Alder/Raptor Lake guide](https://chriswayg.gitbook.io/opencore-visual-beginners-guide/advanced-topics/using-alder-lake) (if applicable). For AMD CPU-based systems, refer to [ChefKissInc's guide](https://chefkissinc.github.io/guide).
 
 ## Parts
@@ -68,17 +68,13 @@ Latest macOS version verified working: 15.3
 
 ## Observations
 
-iMacPro1,1 SMBIOS yields far better performance than MacPro7,1. CPUFriend.kext was not used, as iMacPro1,1 handles power management on its own with no issues. Benchmark scores indicate that macOS performance is approximately 2% slower than Windows. Wi-Fi does not work out of the box, requires use of [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) to enable.
+iMacPro1,1 SMBIOS yields far better performance than MacPro7,1. CPUFriend.kext was not used, as iMacPro1,1 handles power management on its own with no issues. Benchmark scores indicate that macOS performance is approximately 3-4% slower than Windows. Wi-Fi does not work out of the box, requires use of [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) to enable.
 
 **Benchmark scores:**
 
-Geekbench 6.3.0 (Windows):
-
-![340338679-f03874fb-9f10-4530-b980-98696da06dbb](https://github.com/user-attachments/assets/cd822d93-642e-4722-8b25-054091a29589)
-
-Geekbench 6.3.0 (macOS):
-
-![340338849-3b3b98b5-0d85-4a88-a7ae-7f2ef2e52a91](https://github.com/user-attachments/assets/43167d6e-c4e4-4946-8e12-54dee0ba3f9b)
+Geekbench 6.4.0:
+- Windows: single-core 2606, multi-core 13382
+- macOS: single-core 2532, multi-core 12817
 
 **What works:**
 - Wi-Fi (with OCLP root patches)

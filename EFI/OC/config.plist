@@ -720,13 +720,13 @@
 				<key>Base</key>
 				<string>_cpu_thread_alloc</string>
 				<key>Comment</key>
-				<string>force HT enabled for Mojave or later</string>
+				<string>force HT enabled for Sequoia or later</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>i4iUAQAA</data>
+				<data>QYuGlAEAAA==</data>
 				<key>Identifier</key>
 				<string>kernel</string>
 				<key>Limit</key>
@@ -736,13 +736,13 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>18.0.0</string>
+				<string>24.0.0</string>
 				<key>Replace</key>
-				<data>uf8AAACQ</data>
+				<data>uP8AAACQkA==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>1</integer>
 			</dict>
 			<dict>
 				<key>Arch</key>
@@ -1251,7 +1251,7 @@
 				<key>SystemAudioVolume</key>
 				<data>GQ==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 -ctrsmt</string>
+				<string>keepsyms=1 debug=0x100 agdpmod=pikera alcid=11 ctrsmt=full</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
