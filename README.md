@@ -1,7 +1,7 @@
 # macOS Sequoia Hackintosh based on the [ASRock B760M-H/M.2](https://www.asrock.com/MB/Intel/B760M-HM.2/index.asp) motherboard, powered by [OpenCore 1.0.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.4)
 ![Screenshot 2024-09-15 at 12 44 22 PM](https://github.com/user-attachments/assets/3f0038f0-7158-4dcd-8c8c-89109ea821f9)
 
-Latest macOS version verified working: 15.4.1
+Latest macOS version verified working: 15.5
 ## Do NOT use my EFI folder for your Hackintosh. Construct your own using the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide/) and [chriswayg's Alder/Raptor Lake guide](https://chriswayg.gitbook.io/opencore-visual-beginners-guide/advanced-topics/using-alder-lake) (if applicable). For AMD CPU-based systems, refer to [ChefKissInc's guide](https://chefkissinc.github.io/guide).
 
 ## Parts
