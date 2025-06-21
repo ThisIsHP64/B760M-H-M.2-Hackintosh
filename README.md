@@ -14,7 +14,7 @@ Latest macOS version verified working: 15.5
 - Scythe Fuma 3
 
 **Motherboard:**
-- ASRock B760M-H/M.2 (BIOS 5.08)
+- ASRock B760M-H/M.2 (BIOS 9.03)
 
 **RAM:**
 - 2x Crucial 16GB DDR5-4800 (CT16G48C40U5)
