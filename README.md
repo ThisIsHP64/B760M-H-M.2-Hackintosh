@@ -35,7 +35,10 @@ Latest macOS version verified working: 15.5
 **Wireless card:**
 - fenvi FV-T919 PCIe Network Adapter
 
-## BIOS Settings
+**Ethernet adapter:**
+- UGREEN USB to Ethernet Adapter 2.5Gb (RTL8156BG)
+
+## BIOS settings
 
 **Advanced > CPU Configuration:**
 - Intel Hyper Threading Technology: Enabled
@@ -69,7 +72,11 @@ Latest macOS version verified working: 15.5
 
 ## Observations
 
-iMacPro1,1 SMBIOS yields far better performance than MacPro7,1. CPUFriend.kext was not used, as iMacPro1,1 handles power management on its own with no issues. Benchmark scores indicate that macOS performance is approximately 2-3% slower than Windows. Wi-Fi does not work out of the box, requires use of [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) to enable.
+- iMacPro1,1 SMBIOS yields far better performance than MacPro7,1
+- CPUFriend.kext was not used, as iMacPro1,1 handles power management on its own with no issues
+- Benchmark scores indicate that macOS performance is approximately 2-3% slower than Windows
+- Wi-Fi does not work out of the box, use [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher) to enable
+- Ethernet via the motherboard's built-in Realtek RTL8111H and [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X) does not work for more than a few minutes, use a macOS-compatible USB Ethernet adapter instead
 
 **Benchmark scores:**
 
@@ -79,6 +86,7 @@ Geekbench 6.4.0:
 
 **What works:**
 - Wi-Fi (with OCLP root patches)
+- Ethernet (with USB adapter)
 - Bluetooth
 - AirDrop
 - Handoff
@@ -117,7 +125,6 @@ Geekbench 6.4.0:
 - [CpuTopologyRebuild](https://github.com/b00t0x/CpuTopologyRebuild)
 - [IO80211FamlyLegacy and IOSkywalkFamily](https://github.com/dortania/OpenCore-Legacy-Patcher/tree/main/payloads/Kexts/Wifi)
 - [Lilu](https://github.com/acidanthera/Lilu)
-- [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
 - [RestrictEvents](https://github.com/acidanthera/RestrictEvents)
 - [SMCProcessor, SMCSuperIO, and VirtualSMC](https://github.com/acidanthera/VirtualSMC)
 - [SMCRadeonSensors](https://github.com/ChefKissInc/SMCRadeonSensors)
