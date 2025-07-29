@@ -1,7 +1,7 @@
 # macOS Sequoia Hackintosh based on the [ASRock B760M-H/M.2](https://www.asrock.com/MB/Intel/B760M-HM.2/index.asp) motherboard, powered by [OpenCore 1.0.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.5)
 ![Screenshot 2024-09-15 at 12 44 22 PM](https://github.com/user-attachments/assets/3f0038f0-7158-4dcd-8c8c-89109ea821f9)
 
-Latest macOS version verified working: 15.5
+Latest macOS version verified working: 15.6
 ## This EFI folder has NOT been updated for compatibility with macOS Tahoe. It will be updated to support Tahoe no later than one week after the public release.
 ## Do NOT use my EFI folder for your Hackintosh. Construct your own using the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide/) and [chriswayg's Alder/Raptor Lake guide](https://chriswayg.gitbook.io/opencore-visual-beginners-guide/advanced-topics/using-alder-lake) (if applicable). For AMD CPU-based systems, refer to [ChefKissInc's guide](https://chefkissinc.github.io/guide).
 
@@ -37,6 +37,9 @@ Latest macOS version verified working: 15.5
 
 **Ethernet adapter:**
 - UGREEN USB to Ethernet Adapter 2.5Gb (RTL8156BG)
+
+**Speakers:**
+- Senzer CS20
 
 ## BIOS settings
 
@@ -121,7 +124,6 @@ Geekbench 6.4.0:
 
 **Kexts:**
 - [AMFIPass](https://github.com/dortania/OpenCore-Legacy-Patcher/tree/main/payloads/Kexts/Acidanthera)
-- [AppleALC](https://github.com/acidanthera/AppleALC)
 - [CpuTopologyRebuild](https://github.com/b00t0x/CpuTopologyRebuild)
 - [IO80211FamlyLegacy and IOSkywalkFamily](https://github.com/dortania/OpenCore-Legacy-Patcher/tree/main/payloads/Kexts/Wifi)
 - [Lilu](https://github.com/acidanthera/Lilu)
