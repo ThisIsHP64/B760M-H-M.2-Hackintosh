@@ -2,7 +2,7 @@
 ![Screenshot 2024-09-15 at 12 44 22 PM](https://github.com/user-attachments/assets/3f0038f0-7158-4dcd-8c8c-89109ea821f9)
 
 Latest macOS version verified working: 15.6.1
-## This EFI folder has NOT been updated for compatibility with macOS Tahoe. It will be updated to support Tahoe no later than one week after the public release.
+## This EFI folder has NOT been updated for compatibility with macOS Tahoe 26. It will be updated to support Tahoe once OpenCore Legacy Patcher adds support for this new version.
 ## Do NOT use my EFI folder for your Hackintosh. Construct your own using the [Dortania guide](https://dortania.github.io/OpenCore-Install-Guide/) and [chriswayg's Alder/Raptor Lake guide](https://chriswayg.gitbook.io/opencore-visual-beginners-guide/advanced-topics/using-alder-lake) (if applicable). For AMD CPU-based systems, refer to [ChefKissInc's guide](https://chefkissinc.github.io/guide).
 
 ## Parts
