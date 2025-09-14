@@ -133,4 +133,4 @@ Geekbench 6.4.0:
 - [USBToolBox](https://github.com/USBToolBox/kext) and [UTBMap](https://github.com/USBToolBox/tool)
 - [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 
-Feel free to message me on Discord @gdhp if you have any questions.
+Feel free to message me on Discord @thisishp64 if you have any questions.
