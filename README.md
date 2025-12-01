@@ -1,4 +1,4 @@
-# macOS Sequoia Hackintosh based on the [ASRock B760M-H/M.2](https://www.asrock.com/MB/Intel/B760M-HM.2/index.asp) motherboard, powered by [OpenCore 1.0.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.5)
+# macOS Sequoia Hackintosh based on the [ASRock B760M-H/M.2](https://www.asrock.com/MB/Intel/B760M-HM.2/index.asp) motherboard, powered by [OpenCore 1.0.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.6)
 ![Screenshot 2024-09-15 at 12 44 22 PM](https://github.com/user-attachments/assets/3f0038f0-7158-4dcd-8c8c-89109ea821f9)
 
 Latest macOS version verified working: 15.7.2
@@ -113,7 +113,7 @@ Geekbench 6.4.0:
 ## Tools used
 
 **Bootloader:**
-- [OpenCore 1.0.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.5)
+- [OpenCore 1.0.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.6)
 
 **SSDTs (all generated with [SSDTTime](https://github.com/corpnewt/SSDTTime)):**
 - SSDT-EC
